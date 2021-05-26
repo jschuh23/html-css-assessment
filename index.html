@@ -14,27 +14,30 @@
     </head>
     <body>
         <!-- HEADER -->
-        <header>
+        <header class="header__main">
             <img
+                class="header__img"
                 src="./assets/images/badge.png"
                 alt="Best Colleges 2020 - badge"
             />
-            <h1>Learn more about the best jobs for this degree</h1>
-            <a href="#">Highest Earning Jobs</a>
-            <a href="#">Fastest Growing Jobs</a>
-            <a href="#">Most Popular Jobs</a>
-            <a href="#">Most Lucrative Entry-Level Jobs</a>
-            <a href="#">Frequently Asked Questions</a>
+            <h1 class="header__title">
+                Learn more about the best jobs for this degree
+            </h1>
+            <a class="header__link" href="#">Highest Earning Jobs</a>
+            <a class="header__link" href="#">Fastest Growing Jobs</a>
+            <a class="header__link" href="#">Most Popular Jobs</a>
+            <a class="header__link" href="#">Most Lucrative Entry-Level Jobs</a>
+            <a class="header__link" href="#">Frequently Asked Questions</a>
         </header>
 
         <!-- MAIN -->
         <main>
             <!-- DEGREE SEARCH SECTION -->
-            <section>
+            <section class="degrees">
                 <form action="/school-list?level=">
-                    <label for="level-select"
+                    <label class="form__label" for="level-select"
                         >Find an Online Biology Degree:
-                        <span>Sponsored</span></label
+                        <span class="form__span">Sponsored</span></label
                     >
                     <select name="level" id="level-select">
                         <option value="" selected>Select a Level</option>
@@ -46,59 +49,63 @@
                             Certificate & Diploma
                         </option>
                     </select>
-                    <button type="submit">Search</button>
+                    <button class="btn--primary" type="submit">Search</button>
                 </form>
             </section>
 
             <!-- TOP SKILLS SECTION -->
-            <section>
-                <h2>Top skills biology graduates have</h2>
-                <div>
+            <section class="skills">
+                <h2 class="skills__title">Top skills biology graduates have</h2>
+                <div class="skills__content">
                     <img
+                        class="skills__img"
                         src="./assets/images/Icon_Research.png"
                         alt="Research Icon"
                     />
-                    <h3>Research</h3>
-                    <p>
+                    <h3 class="skills__heading">Research</h3>
+                    <p class="skills__text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Aliquid, sapiente provident eos corporis officia ipsa
                         eum animi aut eveniet odit in labore. Voluptatum enim
                         est eligendi!
                     </p>
                 </div>
-                <div>
+                <div class="skills__content">
                     <img
+                        class="skills__img"
                         src="./assets/images/Icon_DataAnalysis.png"
                         alt="Data Analysis Icon"
                     />
-                    <h3>Data Analysis</h3>
-                    <p>
+                    <h3 class="skills__heading">Data Analysis</h3>
+                    <p class="skills__text">
                         Lorem, ipsum dolor sit amet consectetur adipisicing
                         elit. Numquam distinctio eaque facere perferendis eos
                         repudiandae nihil dolorum unde dolore ad. Modi debitis
                         accusamus asperiores officia laudantium.
                     </p>
                 </div>
-                <div>
+                <div class="skills__content">
                     <img
+                        class="skills__img"
                         src="./assets/images/Icon_Communication.png"
                         alt="Communication Icon"
                     />
-                    <h3>Communication</h3>
-                    <p>
+                    <h3 class="skills__heading">Communication</h3>
+                    <p class="skills__text">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Saepe magnam ipsa delectus aliquam iure voluptates
                         nobis veniam. Facere voluptatem fuga quod eaque
                         consequatur? Beatae, eaque sequi?
                     </p>
                 </div>
-                <div>
+                <div class="skills__content">
                     <img
+                        class="skills__img"
                         src="./assets/images/Icon_ProjectManagement.png"
                         alt="Project Management Icon"
                     />
-                    <h3>Project Management</h3>
-                    <p>
+                    <h3 class="skills__heading">Project Management</h3>
+                    <p class="skills__text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Fugiat suscipit illo vero, dolor, perspiciatis
                         delectus dolorum autem ea provident deserunt blanditiis
