@@ -78,3 +78,32 @@ select {
     font-size: 0.75rem;
     font-weight: 400;
 }
+
+/* TOP SKILLS SECTION */
+.skills {
+    background-color: #f3fbff;
+    padding: 1.25rem;
+}
+
+.skills__title {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.skills__content {
+    background-color: #fff;
+    margin-top: 1.25rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.skills__img {
+    margin: 0 auto;
+    padding: 0.875rem 0 0.5rem;
+}
+
+.skills__text {
+    padding: 0 0.625rem 0.625rem;
+}
