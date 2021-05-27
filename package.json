@@ -1,0 +1,22 @@
+{
+    "name": "optimal-application",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "compile:sass": "sass --watch assets/stylesheets/scss/main.scss:assets/stylesheets/css/main.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jschuh23/html-css-assessment.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jschuh23/html-css-assessment/issues"
+    },
+    "homepage": "https://github.com/jschuh23/html-css-assessment#readme",
+    "devDependencies": {
+        "sass": "^1.34.0"
+    }
+}
