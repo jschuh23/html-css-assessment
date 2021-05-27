@@ -6,4 +6,9 @@
     border: none;
     border-radius: 30px;
     background-color: $secondary-color;
+
+    @include respond(medium) {
+        width: 8.75rem;
+        margin-left: 1.25rem;
+    }
 }

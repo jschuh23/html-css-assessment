@@ -1,8 +1,14 @@
 @use '../abstracts' as *;
 
 .grid {
+    width: min-content;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
     gap: 1.25rem;
+
+    @include respond(medium) {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

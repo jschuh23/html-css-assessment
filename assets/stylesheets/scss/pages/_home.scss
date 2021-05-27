@@ -23,6 +23,10 @@
     text-align: center;
     border-radius: 10px;
     width: 21rem;
+
+    @include respond(large) {
+        width: 28.5rem;
+    }
 }
 
 .skills__img {

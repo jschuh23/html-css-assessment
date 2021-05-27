@@ -2,12 +2,19 @@
 
 .form {
     padding: 2.5rem 0;
-    flex-direction: column;
-    @include flex-center;
+
+    @include respond(large) {
+        @include flex-center;
+    }
 }
 
 .form__label {
     text-align: center;
+
+    @include respond(large) {
+        display: inline-block;
+        text-align: left;
+    }
 }
 
 .form__span {
@@ -22,4 +29,12 @@
     background-color: #fff;
     padding-left: 1rem;
     margin: 0.625rem 0;
+
+    @include respond(medium) {
+        width: 21.25rem;
+    }
+
+    @include respond(large) {
+        margin-left: 1.25rem;
+    }
 }
