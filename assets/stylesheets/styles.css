@@ -145,6 +145,9 @@ li:nth-child(5) {
     text-align: center;
     font-size: 1.25rem;
     text-transform: uppercase;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 1.2;
 }
 
 .skills__content {
