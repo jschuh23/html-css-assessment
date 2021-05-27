@@ -1,1 +1,12 @@
 @use '../abstracts' as *;
+
+.header__img {
+    width: 10.5rem;
+    height: 15rem;
+    margin: 2rem auto 0;
+}
+
+.header__title {
+    margin: 1rem 0 0;
+    text-align: center;
+}

@@ -1,1 +1,25 @@
 @use '../abstracts' as *;
+
+.form {
+    padding: 2.5rem 0;
+    flex-direction: column;
+    @include flex-center;
+}
+
+.form__label {
+    text-align: center;
+}
+
+.form__span {
+    display: block;
+}
+
+.form__select {
+    width: 100%;
+    height: 3.5rem;
+    border-radius: 5px;
+    border: solid 2px $light-gray-color;
+    background-color: #fff;
+    padding-left: 1rem;
+    margin: 0.625rem 0;
+}

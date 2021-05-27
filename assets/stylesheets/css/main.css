@@ -1,3 +1,188 @@
+body {
+  min-height: 100vh;
+  background-color: #fff;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #0a162b;
+}
+
+button,
+select {
+  font: inherit;
+  color: #0a162b;
+}
+
+.header__title {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.nav__link {
+  font-weight: 700;
+  color: #0a162b;
+}
+
+.form__label {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.form__span {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.btn--primary {
+  text-transform: uppercase;
+}
+
+.skills__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.container {
+  width: min(85%, 70.5rem);
+  margin: 0 auto;
+}
+
+.header__img {
+  width: 10.5rem;
+  height: 15rem;
+  margin: 2rem auto 0;
+}
+
+.header__title {
+  margin: 1rem 0 0;
+  text-align: center;
+}
+
+.form {
+  padding: 2.5rem 0;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__label {
+  text-align: center;
+}
+
+.form__span {
+  display: block;
+}
+
+.form__select {
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 5px;
+  border: solid 2px #d0d0d0;
+  background-color: #fff;
+  padding-left: 1rem;
+  margin: 0.625rem 0;
+}
+
+.nav__list {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__list--item {
+  padding: 1rem;
+  text-align: center;
+  flex: 1;
+}
+
+li:nth-child(4) {
+  padding-left: 2rem;
+}
+
+li:nth-child(5) {
+  padding-right: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 1.25rem;
+}
+
+.btn--primary {
+  width: 100%;
+  height: 3.5rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffc327;
+}
+
+.degrees {
+  margin: 1.5rem auto;
+  border-top: solid 2px #0a162b;
+  border-bottom: solid 2px #0a162b;
+  text-align: center;
+}
+
+.skills {
+  background-color: #f3fbff;
+  padding: 1.25rem;
+}
+
+.skills__title {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto 1.25rem;
+}
+
+.skills__content {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  width: 21rem;
+}
+
+.skills__img {
+  margin: 0 auto;
+  padding: 0.875rem 0 0.5rem;
+}
+
+.skills__text {
+  padding: 0 0.625rem 0.625rem;
+  line-height: 1.6;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -1,1 +1,8 @@
 @use '../abstracts' as *;
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 1.25rem;
+}

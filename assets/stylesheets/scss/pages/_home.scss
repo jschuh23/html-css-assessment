@@ -1,1 +1,36 @@
 @use '../abstracts' as *;
+
+.degrees {
+    margin: 1.5rem auto;
+    border-top: $primary-border;
+    border-bottom: $primary-border;
+    text-align: center;
+}
+
+.skills {
+    background-color: $light-blue-color;
+    padding: 1.25rem;
+}
+
+.skills__title {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto 1.25rem;
+}
+
+.skills__content {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    width: 21rem;
+}
+
+.skills__img {
+    margin: 0 auto;
+    padding: 0.875rem 0 0.5rem;
+}
+
+.skills__text {
+    padding: 0 0.625rem 0.625rem;
+    line-height: 1.6;
+}
